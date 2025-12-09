@@ -2,6 +2,33 @@
   box-sizing: border-box;
 }
 body {
+  position: relative;
+  background-image: url("../images/site-design.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: soft-light;
+  display: block;
+  height: 450vw;
   width: 100vw;
-  background-color: blue;
+  z-index: -10;
+  background-color: #464646;
+}
+h1 {
+  color: #f4f4f4;
+  font-family: "Offbit";
+  font-size: 2.8vw;
+  line-height: 3vw;
+}
+h2 {
+  color: #f4f4f4;
+  font-family: "Offbit";
+  font-size: 1.8vw;
+  line-height: 2vw;
+}
+p {
+  color: #f4f4f4;
+  font-family: "Normalidad";
+  font-size: 1vw;
+  line-height: 1.5vw;
 }
