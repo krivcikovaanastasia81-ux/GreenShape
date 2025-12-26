@@ -2,24 +2,18 @@
   box-sizing: border-box;
 }
 body {
-  position: relative;
-  background-image: url("../images/site-design.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: soft-light;
-  display: block;
-  height: 450vw;
-  width: 100vw;
-  z-index: -10;
-  background-color: #464646;
+  background-color: #1e1e1e;
 }
 h1 {
-  color: #f4f4f4;
+  color: #1e1e1e;
   font-family: "Offbit";
-  font-size: 2.8vw;
-  line-height: 3vw;
+  font-size: 5vw;
+  line-height: vw;
+  -webkit-text-stroke-width: 0.7vw;
+  -webkit-text-stroke-color: #ffffff;
+  paint-order: stroke fill;
 }
+
 h2 {
   color: #f4f4f4;
   font-family: "Offbit";
@@ -31,4 +25,87 @@ p {
   font-family: "Normalidad";
   font-size: 1vw;
   line-height: 1.5vw;
+}
+/* 1 */
+.section-1 {
+  width: 100vw;
+}
+.section-1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 83.13vw;
+  height: 46.47vw;
+  background-image: url("../images/lace1.svg");
+  background-size: cover;
+}
+.bacgroundImgS-1 {
+  overflow: hidden;
+}
+#H1S-1 {
+  text-align: center;
+  margin-top: 8vw;
+  transition: -webkit-text-stroke-color 2s ease;
+}
+#H1S-1:hover {
+  transition: -webkit-text-stroke-color 0.7s ease;
+  -webkit-text-stroke-color: #009667;
+}
+.animationCubes-1 {
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+}
+.animationCubes-1 div {
+  width: 3.28vw;
+  height: 3.28vw;
+  background-color: #009667;
+}
+#cube {
+  margin-top: -3vw;
+  width: 40.33vw;
+}
+/* 2 */
+.section-2 {
+  margin-top: 10vw;
+  width: 100vw;
+  height: 3.28vw;
+  background-color: #009667;
+  display: flex;
+  flex-direction: row;
+}
+.run-stroke-1 {
+  overflow: hidden;
+}
+.run-stroke-1 h2 {
+  margin-top: 0.8vw;
+  width: 200%;
+  animation: marquee 8s infinite linear;
+}
+.run-stroke-1:hover h2 {
+  animation-play-state: paused;
+}
+.run-stroke-1 span {
+  transition: color 1s ease;
+  padding-right: 6.68vw;
+}
+.run-stroke-1 span:hover {
+  transition: color 0.4s ease;
+  color: #1e1e1e;
+}
+/* 3 */
+.section-3 {
+  width: 100vw;
+  background-color: #808080;
+  opacity: 80%;
+  display: flex;
+  align-items: center;
+}
+.section-3 img {
+  width: 135.94vw;
+  height: 6.58vw;
+  overflow: hidden;
 }

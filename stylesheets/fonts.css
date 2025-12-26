@@ -15,6 +15,6 @@
 @font-face {
   font-family: "Offbit";
   src: url("../fonts/Offbit/OffBit-Bold.ttf") format("truetype");
-  font-style: normal;
+  font-style: bold;
   font-weight: 700;
 }

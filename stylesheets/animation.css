@@ -1,8 +1,8 @@
-@keyframes BoxColorChange {
+@keyframes marquee {
   0% {
-    background-color: cornflowerblue;
+    transform: translateX(0);
   }
   100% {
-    background-color: coral;
+    transform: translateX(-50%);
   }
 }
