@@ -3,6 +3,8 @@
 }
 body {
   background-color: #1e1e1e;
+  cursor: url("../images/cursor.svg") 2 2, auto;
+
 }
 h1 {
   color: #1e1e1e;
