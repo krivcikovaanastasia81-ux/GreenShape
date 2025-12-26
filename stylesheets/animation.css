@@ -6,3 +6,42 @@
     transform: translateX(-50%);
   }
 }
+@keyframes cubes-go-in-line {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(99.5vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes flowers-lines {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes flowers-blocks {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(1vw);
+  }
+  50% {
+    transform: translateY(1vw);
+  }
+  75% {
+    transform: translateX(-1vw);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
