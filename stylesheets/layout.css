@@ -524,11 +524,11 @@ p {
 }
 #cubeLine-1 {
   background-color: #ffffff;
-  transition: background-color 2s ease;
+  transition: background-color 10s ease;
 }
 #cubeLine-2 {
   background-color: #a5a0a0;
-  transition: background-color 2s ease;
+  transition: background-color 10s ease;
 }
 .row-2 {
   width: 100vw;
@@ -542,11 +542,11 @@ p {
 }
 #cubeLine-3 {
   background-color: #777777;
-  transition: background-color 2s ease;
+  transition: background-color 10s ease;
 }
 #cubeLine-4 {
   background-color: #bdbdbd;
-  transition: background-color 2s ease;
+  transition: background-color 10s ease;
 }
 .row-3 {
   width: 100vw;
@@ -560,9 +560,11 @@ p {
 }
 #cubeLine-5 {
   background-color: #949494;
+  transition: background-color 10s ease;
 }
 #cubeLine-6 {
   background-color: #555555;
+  transition: background-color 10s ease;
 }
 .row-4 {
   width: 100vw;
@@ -576,11 +578,11 @@ p {
 }
 #cubeLine-7 {
   background-color: #333333;
-  transition: background-color 2s ease;
+  transition: background-color 10s ease;
 }
 #cubeLine-8 {
   background-color: #696969;
-  transition: background-color 2s ease;
+  transition: background-color 10s ease;
 }
 .row-5 {
   width: 100vw;
@@ -594,11 +596,11 @@ p {
 }
 #cubeLine-9 {
   background-color: #494747;
-  transition: background-color 2s ease;
+  transition: background-color 10s ease;
 }
 #cubeLine-10 {
   background-color: #161616;
-  transition: background-color 2s ease;
+  transition: background-color 10s ease;
 }
 #cubeLine-1:hover {
   transition: background-color 0.7s ease;
