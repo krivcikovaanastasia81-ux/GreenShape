@@ -151,6 +151,67 @@ p {
   margin-top: -63vw;
   animation: flowers-blocks 4s infinite ease;
 }
+.d1 {
+  position: absolute;
+  margin-top: 2vw;
+  margin-left: -40vw;
+  z-index: 1000;
+}
+.d2 {
+  position: absolute;
+  margin-top: -5vw;
+  margin-left: 50vw;
+  z-index: 1000;
+}
+.d3 {
+  position: absolute;
+  margin-top: 25vw;
+  margin-left: 50vw;
+  z-index: 1000;
+}
+.d4 {
+  position: absolute;
+  margin-top: 25vw;
+  margin-left: -30vw;
+  z-index: 1000;
+}
+.d5 {
+  position: absolute;
+  margin-top: 35vw;
+  margin-left: -10vw;
+  z-index: 1000;
+}
+.q1,
+.q2,
+.q3,
+.q4,
+.q5 {
+  width: 3.28vw;
+}
+.q-1,
+.q-2,
+.q-3,
+.q-4,
+.q-5 {
+  width: 18.52vw;
+  opacity: 0;
+}
+
+.q1:hover ~ .q-1 {
+  opacity: 1;
+}
+.q2:hover ~ .q-2 {
+  opacity: 1;
+}
+.q3:hover ~ .q-3 {
+  opacity: 1;
+}
+.q4:hover ~ .q-4 {
+  opacity: 1;
+}
+.q5:hover ~ .q-5 {
+  opacity: 1;
+}
 /* 5 */
 .section-5 {
   width: 100vw;
